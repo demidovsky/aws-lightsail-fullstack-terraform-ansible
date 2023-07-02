@@ -21,6 +21,11 @@ $ terraform init
 
 ## Use Terraform
 
+0. List Lightsail blueprints
+```
+$ aws lightsail get-blueprints
+```
+
 1. Apply configs
 ```
 $ terraform plan
